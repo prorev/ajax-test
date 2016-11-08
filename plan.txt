@@ -1,0 +1,22 @@
+The plan.
+
+* To create the basic Ajax example on 2016 theme with https://codex.wordpress.org/Theme_Unit_Test or improved unit test data if needed.
+
+* To explain different design paths, and decisioning, since any solution may be
+done in many different ways.
+
+* To use the namespaces, since these are better.
+
+* To create write JavaDoc sintax and create document at the end for the plugin.
+
+* To create a Document considering this plan about the process who this worked out.
+
+* To test using basic unit tests PHP Unit.
+
+* To integrate Travis check from Github, possible including the different linters.
+
+* To additionally set the WebKit browser to screen shot the application.
+
+* Possible to add some Sass styles converters since these are needed for the work
+in there.
+
