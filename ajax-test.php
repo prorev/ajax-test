@@ -1,6 +1,5 @@
 <?php
 /**
- * The plugin bootstrap file
  *
  *
  * @link              https://programming-review.com
