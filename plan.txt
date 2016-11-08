@@ -13,10 +13,11 @@ done in many different ways.
 
 * To test using basic unit tests PHP Unit.
 
+* Support i18n.
+
 * To integrate Travis check from Github, possible including the different linters.
 
 * To additionally set the WebKit browser to screen shot the application.
 
 * Possible to add some Sass styles converters since these are needed for the work
 in there.
-
