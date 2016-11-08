@@ -1,7 +1,6 @@
 <?php
 /**
  *
- *
  * @link              https://programming-review.com
  * @since             1.0.0
  * @package           Ajax_Test
