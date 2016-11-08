@@ -31,7 +31,31 @@ You can use this `wp-cli` command sequnce to activate the plugin.
 
 ## Plugin Preparation
 
-Please check the [plan.txt](https://github.com/prosti/ajax-test/plan.txt) document.
+In the preparation phase the following goals have been set.
+
+* To create the basic Ajax example that fits the programming goal.
+
+* To explain different design paths, and decisioning, since any solution may be
+done in many different ways.
+
+* To test on the [twentysixteen WordPress theme](https://wordpress.org/themes/twentysixteen/) and using [Theme Unit Tests data](https://codex.wordpress.org/Theme_Unit_Test) or improved test data if needed.
+
+* To use the namespaces, since these are more professional.
+
+* To create write using the JavaDoc syntax and to create document at the end for the plugin.
+
+* To create a document explaining the work on this plugin.
+
+* To test using basic unit tests PHP Unit.
+
+* Support i18n.
+
+* To integrate Travis check from Github, possible including the different linters.
+
+* To additionally set the WebKit browser application for visual testing.
+
+* To add possible Sass styles converters
+
 
 ## Recommended Tools
 
