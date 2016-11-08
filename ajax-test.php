@@ -20,7 +20,7 @@
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
-	die;
+ die;
 }
 
 /**
@@ -28,8 +28,8 @@ if ( ! defined( 'WPINC' ) ) {
  * This action is documented in includes/class-ajax-test-activator.php
  */
 function activate_ajax_test() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-ajax-test-activator.php';
-	Ajax_Test_Activator::activate();
+ require_once plugin_dir_path( __FILE__ ) . 'includes/class-ajax-test-activator.php';
+ Ajax_Test_Activator::activate();
 }
 
 /**
@@ -37,8 +37,8 @@ function activate_ajax_test() {
  * This action is documented in includes/class-ajax-test-deactivator.php
  */
 function deactivate_ajax_test() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-ajax-test-deactivator.php';
-	Ajax_Test_Deactivator::deactivate();
+ require_once plugin_dir_path( __FILE__ ) . 'includes/class-ajax-test-deactivator.php';
+ Ajax_Test_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_ajax_test' );
@@ -61,8 +61,8 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-ajax-test.php';
  */
 function run_ajax_test() {
 
-	$plugin = new Ajax_Test();
-	$plugin->run();
+ $plugin = new Ajax_Test();
+ $plugin->run();
 
 }
 run_ajax_test();
