@@ -54,7 +54,7 @@ done in many different ways.
 
 * To additionally set the WebKit browser application for visual testing.
 
-* To add possible Sass styles converters
+* To add possible Sass styles converters.
 
 
 ## Recommended Tools
